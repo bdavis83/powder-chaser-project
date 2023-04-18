@@ -41,6 +41,11 @@ INSTALLED_APPS = [
     'authentication.apps.AuthenticationConfig',
     'corsheaders',
     'cars.apps.CarsConfig'  # This app is for example use only
+    'powder_chaser',
+    'current_weather',
+    'historical_weather',
+    'ski_resort',
+    'weather_forecast',
 ]
 
 MIDDLEWARE = [
