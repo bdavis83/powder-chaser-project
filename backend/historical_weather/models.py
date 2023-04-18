@@ -6,6 +6,6 @@ class HistoricalWeather (models.Model):
     date = models.DateField()
     high_temp = models.DecimalField(max_digits=5, decimal_places=1)
     low_temp = models.DecimalField(max_digits=5, decimal_places=1)
-    precipitation = models.DecimalField(max_digits=5, decimal_places=1))
+    precipitation = models.DecimalField(max_digits=5, decimal_places=1)
     condition = models.CharField(max_length=255)
 
