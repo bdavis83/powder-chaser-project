@@ -4,5 +4,5 @@ from .models import SkiResort
 class SkiResortSerializer (serializers.ModelSerializer):
     class Meta:
         model = SkiResort
-        fields = ['id', 'name', 'city', 'state', 'latitude', 'longitude', 'favorite']
+        fields = ['id', 'name', 'city', 'state', 'latitude', 'longitude', 'favorite', 'user_id']
         depth = 1
