@@ -1,4 +1,5 @@
 from django.db import models
+from ski_resort.models import SkiResort
 
 class CurrentWeather(models.Model):
     location = models.ForeignKey(SkiResort, on_delete=models.CASCADE)
